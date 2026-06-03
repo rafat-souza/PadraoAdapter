@@ -12,7 +12,7 @@ public class SistemaNotificacao {
 
     public void setMensagem(String mensagem) {
         publicador.setMensagem(mensagem);
-        mensageria.salvarMensagem(); 
+        mensageria.salvarMensagem();
     }
 
     public String getMensagem() {
